@@ -1,0 +1,375 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+}
+.logoweb{
+    cursor: pointer;
+}
+.concacha {
+    display: flex;
+    align-items: center;
+    background-color: #00483d;
+    justify-content: center;
+    height: 55px;
+    text-align: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+.concacon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.int1 {
+    width: 70%;
+    padding: 10px;
+    border-radius: 25px;
+}
+.order-status {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.btn1{
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: #FFD000;
+    
+}
+.menu-behind{
+    display: flex;
+    justify-content: center;
+    font-size: 15.5px;
+    list-style: none;
+    margin: 0 35px;
+    color: #fff;
+    font-family: calibri;
+    text-align: center;
+    position: relative;
+    gap: 60px;  
+    cursor: pointer;
+}
+.menu-behind :hover{
+    color: #FFD000;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    margin: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header {
+    background-color: #00483d;
+    text-align: center;
+}
+.menu-list {
+    font-family: calibri;
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-item {
+    margin-right: 20px;
+}
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+.menu-item a:hover {
+    border: 2px solid black;
+}
+.text ul {
+    list-style: none; 
+    padding: 0; 
+}
+.ic ul {
+    list-style: none; 
+    padding: 0; 
+}
+body {
+    background-image: url(background.png);
+    max-width: 100%;
+    max-height: 100%;
+}
+.btsearch {
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50%; 
+    background-color: #007bff; 
+    color: #ffffff;
+    border: none; 
+    cursor: pointer; 
+    position: relative;
+    right: 2.7%;
+}
+.btsearch:hover {
+    background-color: #f0f0f0; 
+  }
+.cart{
+    position: relative;
+    bottom:4px;
+    background-color: #00483d;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.cart:hover{
+    background-color: #FFD000;  
+}
+.banner-big{
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+}
+.banner-big img{
+    width: 1100px;
+}
+.btchange{
+    text-align: center;
+    padding: 10px;
+    
+}
+.btchange1{
+    background-color: #00483d;
+    color: #f0f0f0;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+}
+.btchange2{
+    background-color:#f0f0f0;
+    color:black;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+}
+.btchange2:hover{
+    background-color: #00483d;
+    color: #f0f0f0;
+}
+.btchange3{
+    background-color: #f0f0f0;
+    color:black;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+}
+.btchange3:hover{
+    background-color: #00483d;
+    color: #f0f0f0;
+}
+.banner-small {
+    position: relative;
+    text-align: center;
+}
+.banner-small img {
+    width: 18.2%;
+    height: 18.2%;
+    margin: 1px; 
+}
+.hphone{
+    background-color: #00483d;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+.hlaptop{
+    background-color: #00483d;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 250px;
+    height: 30px;
+    position: relative;
+    top: 66px;
+    left:200px;
+}
+.btb:hover{
+    background: transparent linear-gradient(90deg,#b1b068 0%,#75791d 100%);
+}
+.btblt:hover{
+    background: transparent linear-gradient(90deg,#b1b068 0%,#75791d 100%);
+}
+.divchild4{
+  border: 1px solid;
+  border-radius: 20px;
+  width: 40px;
+  height: 149px;
+  position: fixed;
+  left: 9px;
+  top: 350px;
+  z-index: 2;
+}
+.ulchildd4{
+  list-style-type: none;
+  position: relative;
+  left: 9px;
+  top: 22px;
+  font-size: 25px;
+  justify-content: center;
+}
+.facebook{
+  color: blue;
+  margin-top: -15px;
+}
+.youtube{
+  color: red;
+  margin-top: 5px;
+}
+.instagram{
+  color: rgb(232, 85, 109) ;
+  margin-top: 5px;
+  margin-left: 2.5px;
+}
+.tiktok{
+  color: black;
+  margin-top: 5px;
+  margin-left: 2.5px;}
+.ft1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px;
+    position: relative;
+    top: 120px;
+    font-family: calibri;
+    
+}
+.ft1_1{
+    padding: 8px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: #00483d;
+    color: #ffffff;
+}
+.ft1_2{
+    padding: 8px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: #00483d;
+    color: #ffffff;
+}
+.ft1_3{
+    padding: 8px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: #00483d;
+    color: #ffffff;
+}
+.ft1_4{
+    padding: 8px; 
+    border-radius: 5px;
+    height: 50px;
+    background-color: #00483d;
+    color: #ffffff;
+}
+.ft2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    gap: 50px;
+}
+.ft2_2{
+    position: relative;
+    top: 20px;
+    color: #f0f0f0; 
+    text-align: center; 
+}
+.ft2_3{
+    position: relative;
+    top: 30px;
+}
+.btnemail{
+    position: absolute;
+    right: 1px;
+    font-size: 17.2px;
+}
+.btnemail:hover{
+    background-color: violet;
+}
+.divfootermain{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    color: #ffffff;
+    
+ }
+ 
+ .ulfoot1{
+   position: relative;
+   list-style: none;
+   left: -20px;
+ }
+ .ulfoot2{
+   position: relative;
+   list-style: none;
+   left: -35px;
+ }
+ .ulfoot3{
+   position: relative;
+   list-style: none;
+   left: -35px;
+ }
+ 
+ .sdtfoot{
+   height: 30px;
+   width: 100px;
+   border-radius: 10px;
+   color: #00483d;
+   font-weight: bold;
+   position: relative;
+   left: -15px;
+ }
+ .sdtfoot:hover{
+   background-color: #fbff00;
+   color: #C13584;
+ }
+ 
+ .h4foot2{
+     margin-left: -20px;
+ }
+ .ft3{
+    position: relative;
+    top: 132px;
+    justify-content: space-between;
+   margin: 0 200px;
+   background-color: #00483d;
+   border-radius: 15px;
+   padding: 20px;
+   padding-bottom: 50px;
+}
+.cc{
+    position: relative;
+    bottom: 100px;
+}
